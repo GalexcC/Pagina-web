@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streetwear - Tienda de Ropa Urbana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #4797e7; 
+            color: #212529; 
+        }
+        .header {
+            background-color: #b82041; 
+            color: white; 
+            padding: 10px 0;
+        }
+        .header h1 {
+            margin-bottom: 0;
+        }
+        .card {
+            transition: transform 0.3s ease;
+            border: 1px solid #dee2e6; 
+            border-radius: 10px; 
+            overflow: hidden; 
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(104, 14, 14, 0.1); 
+        }
+        .card-img-top {
+            height: 250px; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="header text-align">
+    <div class="container">
+        <h1 class="mb-0">Streetwear - Tienda de Ropa Urbana</h1>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="Imagenes/ropa1.webp" class="card-img-top" alt="Camiseta Estampada">
+                <div class="card-body">
+                    <h5 class="card-title">Camiseta Estampada Pac</h5>
+                    <p class="card-text">Camiseta de algodón con diseño urbano.</p>
+                    <p class="card-text">Disponible en varias tallas y colores.</p>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                    <button class="btn btn-outline-primary"><i class="bi bi-cart-plus"></i> Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="Imagenes/ropa2.jpg" class="card-img-top" alt="Jeans Rasgados">
+                <div class="card-body">
+                    <h5 class="card-title">Jeans Rasgados</h5>
+                    <p class="card-text">Jeans de estilo urbano con detalles rasgados.</p>
+                    <p class="card-text">Ajuste cómodo y moderno.</p>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                    <button class="btn btn-outline-primary"><i class="bi bi-cart-plus"></i> Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="Imagenes/rop3.jpg" class="card-img-top" alt="Gorra Snapback">
+                <div class="card-body">
+                    <h5 class="card-title">Gorra Snapback</h5>
+                    <p class="card-text">Gorra ajustable con diseño moderno.</p>
+                    <p class="card-text">Ideal para complementar tu estilo urbano.</p>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                    <button class="btn btn-outline-primary"><i class="bi bi-cart-plus"></i> Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <p>&copy; 2024 Streetwear - Tienda de Ropa Urbana. Todos los derechos reservados.</p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

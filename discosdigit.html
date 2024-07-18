@@ -8,13 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Estilos adicionales específicos para esta página */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f8f9fa;
         }
         .header {
-            background-color: #343a40;
+            background-color: #ecf0f5;
             color: white;
             padding: 10px 0;
         }
@@ -43,7 +42,6 @@
 <div class="header text-align">
     <div class="container">
         <h1 class="mb-0">Discos Digitales</h1>
-        
     </div>
 </div>
 
@@ -51,24 +49,23 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card h-100">
-                <img src="Imagenes/disco1.webp" class="card-img-top" alt="Nombre del disco">
+                <img src="Imagenes/digital rap.jpg" class="card-img-top" alt="Nombre del disco">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del Disco</h5>
-                    <p class="card-text">La musica pop en ingles mas escuchada</p>
-                    <a href="#" class="btn btn-primary">Detalles</a>
+                    <h5 class="card-title">Step In the Arena </h5>
+                    <p class="card-text">Los mejores discos de rap</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDisco1">Detalles</a>
                     <button class="btn btn-outline-primary"><i class="bi bi-cart-plus"></i> Agregar al carrito</button>
                 </div>
             </div>
         </div>
 
-        <!-- Repite este bloque para cada producto -->
         <div class="col">
             <div class="card h-100">
-                <img src="Imagenes/disco2.jpg" class="card-img-top" alt="Nombre del disco">
+                <img src="Imagenes/digital2.webp" class="card-img-top" alt="Nombre del disco">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del Disco</h5>
+                    <h5 class="card-title">Thriller</h5>
                     <p class="card-text">Desde Pop Rock hasta Soulpop</p>
-                    <a href="#" class="btn btn-primary">Detalles</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDisco2">Detalles</a>
                     <button class="btn btn-outline-primary"><i class="bi bi-cart-plus"></i> Agregar al carrito</button>
                 </div>
             </div>
@@ -76,16 +73,74 @@
 
         <div class="col">
             <div class="card h-100">
-                <img src="Imagenes/disco4.jpg" class="card-img-top" alt="Nombre del disco">
+                <img src="Imagenes/carousel5.webp" class="card-img-top" alt="Nombre del disco">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del Disco</h5>
-                    <p class="card-text">Los mejores discos pop en español</p>
-                    <a href="#" class="btn btn-primary">Detalles</a>
+                    <h5 class="card-title">Appetite for Destruction                    </h5>
+                    <p class="card-text">Lo mejor del rock</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDisco4">Detalles</a>
                     <button class="btn btn-outline-primary"><i class="bi bi-cart-plus"></i> Agregar al carrito</button>
                 </div>
             </div>
         </div>
-        <!-- Fin de los productos -->
+        
+    </div>
+</div>
+
+<!-- Modales -->
+<div class="modal fade" id="modalDisco1" tabindex="-1" aria-labelledby="modalDisco1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDisco1Label">Step In the Arena </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Hip Hop.</p>
+                <p>Precio: $50.00</p>
+                <p>Step In the Arena -En español: Paso en la arena- es el segundo álbum de estudio del dúo estadounidense de hip hop Gang Starr. Fue publicado inicialmente en 1990, pero luego se lanzó comercialmente el 15 de enero de 1991.​En 1998, el álbum fue seleccionado como uno de los 100 Mejores Álbumes de Rap de The Source.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDisco2" tabindex="-1" aria-labelledby="modalDisco2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDisco2Label">Thriller</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Desde Pop Rock hasta Soulpop.</p>
+                <p>Precio: $65.00</p>
+                <p>Thriller es el sexto álbum de estudio del cantante estadounidense Michael Jackson, publicado el 29 de noviembre de 1982 por Epic Records</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDisco4" tabindex="-1" aria-labelledby="modalDisco4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDisco4Label">Appetite for Destruction</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Rock para siempre</p>
+                <p>Precio: $35.00</p>
+                <p>Appetite for Destruction —en español: Apetito por la destrucción — es el álbum debut de la banda estadounidense de hard rock Guns N' Roses. Fue publicado por la compañía discográfica Geffen Records el 21 de julio de 1987, tras su autoeditado Live?!*@ Like a Suicide.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
     </div>
 </div>
 

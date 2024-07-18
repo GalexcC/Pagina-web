@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller Practico 1</title>
+    <title>Proyecto Final</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 
     <style>
         #scrollTopBtn {
@@ -76,9 +77,10 @@
                                     Productos
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownProductos">
-                                    <li><a class="dropdown-item" href="vinylos.html">Vinylos</a></li>
-                                    <li><a class="dropdown-item" href="discos.html">Discos digitales</a></li>
-                                    <li><a class="dropdown-item" href="ropa.html">street wear</a></li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="vinylos.html" target="_blank">Vinylos</a></li> 
+                                    <li><a class="dropdown-item" href="discosdigit.html" target="_blank">Discos digitales</a></li> 
+                                    <li><a class="dropdown-item" href="streetwear.html" target="_blank">ropa</a></li> 
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -143,7 +145,7 @@
                 </div>
             </div>
         
-            <!-- Controles de navegación del carrusel -->
+            
             <button class="carousel-control-prev" type="button"
                     data-bs-target="#carouselE"
                     data-bs-slide="prev">
@@ -246,7 +248,6 @@
             </div>
         </div>
 
-
     </section>
     <section class="portofolio section-padding">
 
@@ -255,7 +256,7 @@
                 <div class="col-md-12">
                     <div class="section-header text-center text-white pb-5">
                         <section id="productos" class="about section-padding">
-                            <!-- Contenido de la sección "Nosotros" -->
+                            
                         </section>
                         <h2>Productos</h2>
                         <p>Una amplia lista de discos de los generos rock, pop, rap, son los que encontraras para el deleite de tu oido y el alma.
@@ -269,7 +270,7 @@
                     <div class="card text-light text-center bg-dark pb-2">
                         <div class="card-body text-white">
                             <div class="img-area mb-4">
-                                <img src="Imagenes/vinilpop.webp" class="img-fluid" alt="">
+                                <img src="Imagenes/vinilpop.webp" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#modalVinyl">
                             </div>
                             <h3>Vinylos</h3>
                             <button class="btn bg-primary text-white">Mas informacion</button>
@@ -280,10 +281,9 @@
                     <div class="card text-light text-center bg-dark pb-2">
                         <div class="card-body text-white">
                             <div class="img-area mb-4">
-                                <img src="Imagenes/moda.jpg" class="img-fluid" alt="">
+                                <img src="Imagenes/moda.jpg" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#modalStreetWear">
                             </div>
                             <h3>Street wear</h3>
-                            <audio controls src="audio/mi.MP3"></audio>
                             <button class="btn bg-primary text-white">Mas informacion</button>
                         </div>
                     </div>
@@ -292,10 +292,9 @@
                     <div class="card text-light text-center bg-dark pb-2">
                         <div class="card-body text-white">
                             <div class="img-area mb-4">
-                                <img src="Imagenes/discos digitales.jpg" class="img-fluid" alt="">
+                                <img src="Imagenes/discos digitales.jpg" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#modalDiscosDigitales">
                             </div>
                             <h3>Discos digitales</h3>
-                            <audio controls src="audio/cancio.mp3"></audio>
                             <button class="btn bg-primary text-white">Mas informacion</button>
                         </div>
                     </div>
@@ -326,10 +325,7 @@
                             <h3 class="card-title py-2">Appetite for Destruction</h3>
                             <p class="card-text">
                                 Guns N' Roses es una banda estadounidense de hard rock formada en Hollywood, Los Ángeles, en la zona de Sunset Strip, en 1985. El grupo musical fue fundado por el vocalista y pianista Axl Rose y el guitarrista Izzy Stradlin.
-                            </p>
-                            <iframe width="200" height="225" src="https://www.youtube.com/embed/xFe2vxVZWkY?si=YSdiJo_pyBLuED7H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
-
+                            </p>                            
                         </div>
                     </div>
                 </div>
@@ -341,7 +337,6 @@
                             <p class="card-text">
                                 The Low End Theory -En españolː La teoría del extremo inferior- es el segundo álbum del grupo estadounidense de hip hop, A Tribe Called Quest, publicado el 24 de septiembre de 1991 por el sello Jive Records. Fue producido por el grupo y Skeff Anselm, especialmente por el miembro del grupo, Q-Tip.
                             </p>
-                            <iframe width="200" height="225" src="https://www.youtube.com/embed/1QWEPdgS3As?si=oOHzaqD2hJU0ckMp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -353,7 +348,6 @@
                             <p class="card-text">
                                 Bad es el séptimo álbum de estudio del cantante estadounidense Michael Jackson, lanzado por Epic Records el 31 de agosto de 1987. Fue escrito y grabado en un periodo de casi un año y marcó la colaboración final entre el intérprete y el productor Quincy Jones.
                             </p>
-                            <iframe width="200" height="225" src="https://www.youtube.com/embed/dsUXAEzaC3Q?si=-0xzO0RVf33AQIHK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -365,7 +359,6 @@
                             <p class="card-text">
                                 Hard to Earn es el cuarto álbum de estudio del dúo de hip hop estadounidense Gang Starr. Fue lanzado el 8 de marzo de 1994 por Chrysalis y EMI Records en Norteamérica. El álbum incluía los sencillos "Dwyck", "Mass Appeal" y "Code of the Streets".
                             </p>
-                            <iframe width="200" height="225" src="https://www.youtube.com/embed/qmj1q67NDAk?si=uuSA2bZ_dAP0yrWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -434,7 +427,6 @@
 
     <button onclick="scrollToTop()" id="scrollTopBtn" class="btn btn-primary btn-lg"><i class="bi bi-arrow-up"></i></button>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
         window.onscroll = function() {scrollFunction()};
@@ -455,5 +447,105 @@
             });
         }
     </script>
+    <script src="js/index.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const productos = data.productos;
+                    const productosContainer = document.getElementById('productosContainer');
+                    
+                    productos.forEach(producto => {
+                        const productoCard = `
+                            <div class="col-12 col-md-12 col-lg-4">
+                                <div class="card text-light text-center bg-dark pb-2">
+                                    <div class="card-body text-white">
+                                        <div class="img-area mb-4">
+                                            <img src="${producto.imagen}" class="img-fluid" alt="">
+                                        </div>
+                                        <h3>${producto.nombre}</h3>
+                                        <p class="lead">${producto.descripcion}</p>
+                                        <p class="lead">Precio: $${producto.precio}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        productosContainer.innerHTML += productoCard;
+                    });
+                })
+                .catch(error => console.error('Error al cargar datos desde data.json:', error));
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    
+<div class="modal fade" id="modalVinyl" tabindex="-1" aria-labelledby="modalVinylLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalVinylLabel">Vinylos</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="Imagenes/z1.jpg" class="img-fluid mb-3" alt="Vinylo">
+                <p>Explora nuestra colección de vinylos y sumérgete en la experiencia incomparable de escuchar música en su forma más pura. Desde los clásicos icónicos hasta las ediciones limitadas, cada vinylo cuenta una historia única y ofrece una calidad de sonido analógico que captura cada matiz y emoción de la música. Con portadas artísticas y vinilos meticulosamente seleccionados, cada disco es una obra de arte tanto visual como auditiva. Descubre la calidez del sonido que solo los vinylos pueden ofrecer y haz de cada sesión de escucha un viaje fascinante a través de tu música favorita.
+
+                </p>
+                <audio controls src="audio/mi.MP3"></audio>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalStreetWear" tabindex="-1" aria-labelledby="modalStreetWearLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalStreetWearLabel">Street wear</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="Imagenes/z2.avif" class="img-fluid mb-3" alt="Street wear">
+                <p>Explora nuestra colección de street wear diseñada para quienes desean destacar con un estilo auténtico y lleno de personalidad. Desde camisetas gráficas hasta sudaderas y accesorios únicos, cada pieza está pensada para reflejar la esencia de la cultura urbana y el espíritu independiente. Encuentra prendas que van más allá de la moda, creando un impacto visual donde quiera que vayas. Exprésate con nuestra selección exclusiva y descubre cómo el street wear puede transformar tu manera de vestir.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDiscosDigitales" tabindex="-1" aria-labelledby="modalDiscosDigitalesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDiscosDigitalesLabel">Discos digitales</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="Imagenes/z3.webp" class="img-fluid mb-3" alt="Discos digitales">
+                <p>Descubre nuestra selección de discos digitales que te permiten disfrutar de la mejor música en cualquier momento y lugar. Desde clásicos atemporales hasta los últimos lanzamientos, nuestra plataforma te ofrece acceso instantáneo a una biblioteca musical diversa y emocionante. Explora géneros, artistas y álbumes con solo unos clics, y crea tu propia colección personalizada que se adapte a tu gusto musical. Con la calidad de sonido digital de alta fidelidad, cada canción cobra vida como nunca antes. Prepárate para sumergirte en una experiencia auditiva sin límites con nuestros discos digitales.</p>
+                <audio controls src="audio/Nirvana - Smells Like Teen Spirit Lyrics.mp3"></audio>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/formulario.js"></script>
+
 </body>
 </html>
+
+
